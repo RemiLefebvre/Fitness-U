@@ -1,0 +1,38 @@
+$clair:#5CC83A;
+$fonce:#186200;
+$vert:#299C04;
+
+body,html{
+  width: 100%;
+}
+
+// BEGIN
+
+// HEADER
+body{
+  #header{
+    position: fixed ;
+    z-index: 3;
+    width: 100%;
+    .desktop{
+      a{
+        width: 60%;
+      }
+      .nav{
+        width: 40px;
+      }
+    }
+    .phone{
+      .navbar{
+        padding-bottom: 10px;
+        padding: 0 ;
+        ul{
+          padding-left: 30px;
+        }
+      }
+    }
+  }
+  #main{
+    top: 40px;
+  }
+}

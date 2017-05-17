@@ -1,3 +1,27 @@
+body, html {
+  width: 100%;
+}
 
+body #header {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+}
+body #header .desktop a {
+  width: 60%;
+}
+body #header .desktop .nav {
+  width: 40px;
+}
+body #header .phone .navbar {
+  padding-bottom: 10px;
+  padding: 0;
+}
+body #header .phone .navbar ul {
+  padding-left: 30px;
+}
+body #main {
+  top: 40px;
+}
 
 /*# sourceMappingURL=style.css.map */
