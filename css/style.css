@@ -56,4 +56,13 @@ body #main .presentation h4 {
   border-radius: 50%;
 }
 
+#main .form .well-block {
+  background-color: #fff;
+  border: 1px solid #e9e6e8;
+  padding: 40px;
+}
+#main .form .well-title {
+  margin-bottom: 40px;
+}
+
 /*# sourceMappingURL=style.css.map */

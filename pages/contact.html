@@ -26,10 +26,10 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
         <!-- CSS -->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
 
     </head>
 
@@ -100,7 +100,122 @@
       </header>
 
       <!-- MAIN  @@@@@@@@@@@@@@@@@@@@@@@@@@@@///@@@@@@@@//@@@@@//@@@@/@-->
+      <main class="container-fluid" id="main">
+        <section class="container">
+          <h2>Contact</h2>
+          <div class="container">
 
+              <!-- FORMULAIRE  @@@///@@@@@@@@//@@@@@//@@@@/@-->
+            <div class="row form">
+                <div class="col-md-6">
+                    <div class="well-block">
+                        <div class="well-title">
+                            <h2>Choisir la formule</h2>
+                        </div>
+                        <form>
+                            <!-- Form start -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="name" name="name" type="text" placeholder="Nom" class="form-control input-md">
+                                    </div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="email" name="email" type="text" placeholder="E-Mail" class="form-control input-md">
+                                    </div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="date" name="date" type="text" placeholder="Date préférée" class="form-control input-md">
+                                    </div>
+                                </div>
+                                <!-- Select Basic -->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <select id="time" name="time" class="form-control">
+                                            <option value="8:00 to 9:00">Matin</option>
+                                            <option value="9:00 to 10:00">Midi</option>
+                                            <option value="10:00 to 1:00">Soir</option>
+                                            <option value="10:00 to 1:00">Nuit</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- Select Basic -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label class="control-label" for="appointmentfor">Choix du coach</label>
+                                        <select id="appointmentfor" name="appointmentfor" class="form-control">
+                                            <option value="Service#1">Alexandra</option>
+                                            <option value="Service#2">Roberto</option>
+                                            <option value="Service#3">Ahsan</option>
+                                            <option value="Service#4">Tawshif</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- Button -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <button id="singlebutton" name="singlebutton" class="btn btn-default">Envoyer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- form end -->
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="well-block">
+                        <div class="well-title">
+                            <h2>A propos</h2>
+                        </div>
+                        <div class="feature-block">
+                            <div class="feature feature-blurb-text">
+                                <h4 class="feature-title">Premier contact</h4>
+                                <div class="feature-content">
+                                    <p>Pour toutes premières demandes , nous remplire le formulaire et nous envoyer une demande avec vos disponibilités.</p>
+                                </div>
+                            </div>
+                            <div class="feature feature-blurb-text">
+                                <h4 class="feature-title">Adresse</h4>
+                                <div class="feature-content">
+                                  <address>
+                                    <strong>Roubaix</strong>
+                                      Nord , Haut de France<br>
+                                      CP: 59100<br>
+                                      <abbr>Tel:</abbr> 03 20 34 45 56<br>
+                                      Email: <a href="#">Fitnessandu@gmail.com</a>
+                                  </address>
+                                </div>
+                            </div>
+                            <div class="feature feature-blurb-text">
+                                <h4 class="feature-title">Réseaux sociaux</h4>
+                                <div class="feature-content">
+                                  <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                                  <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                                  <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                                  <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+        </section>
+
+
+
+        <!-- MAP  @@@///@@@@@@@@//@@@@@//@@@@/@-->
+        <section class="container">
+
+
+        </section>
+
+      </main>
 
 
 
@@ -125,7 +240,7 @@
           <!-- COACH 1 -->
           <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
               <div class="card">
-                  <img class="card-img-top" src="img/coach1.jpg">
+                  <img class="card-img-top" src="../img/coach1.jpg">
                   <div class="card-block">
                       <h4 class="card-title mt-3">Alexandra</h4>
                       <div class="meta">
@@ -146,7 +261,7 @@
           <!-- COACH 2 -->
           <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
               <div class="card">
-                  <img class="card-img-top" src="img/coach2.jpg">
+                  <img class="card-img-top" src="../img/coach2.jpg">
                   <div class="card-block">
                       <h4 class="card-title mt-3">Roberto</h4>
                       <div class="meta">
@@ -168,7 +283,7 @@
           <!-- COACH 3 -->
           <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
               <div class="card">
-                  <img class="card-img-top" src="img/coach3.jpg">
+                  <img class="card-img-top" src="../img/coach3.jpg">
                   <div class="card-block">
                       <h4 class="card-title mt-3">Ahsan</h4>
                       <div class="meta">
@@ -190,7 +305,7 @@
           <!-- COACH 4 -->
           <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
               <div class="card">
-                  <img class="card-img-top" src="img/coach4.jpg">
+                  <img class="card-img-top" src="../img/coach4.jpg">
                   <div class="card-block">
                       <h4 class="card-title mt-3">Tawshif</h4>
                       <div class="meta">
