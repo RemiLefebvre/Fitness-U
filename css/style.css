@@ -65,4 +65,9 @@ body #main .presentation h4 {
   margin-bottom: 40px;
 }
 
+#calendar td {
+  text-align: center;
+  border: 1px solid #000;
+}
+
 /*# sourceMappingURL=style.css.map */
