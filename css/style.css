@@ -65,7 +65,10 @@ body #main .presentation h4 {
   margin-bottom: 40px;
 }
 
-#calendar td {
+.calendrier {
+  margin-top: 50px;
+}
+.calendrier #calendar td {
   text-align: center;
   border: 1px solid #000;
 }

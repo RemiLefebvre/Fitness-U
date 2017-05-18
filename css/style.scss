@@ -91,9 +91,13 @@ body{
 }
 
 // TARIFS PAGE ///////////////////--/////////---///////--/////--///-//-/-
-#calendar{
-  td{
-    text-align: center;
-    border: 1px solid #000;
+.calendrier{
+  margin-top: 50px;
+
+  #calendar{
+    td{
+      text-align: center;
+      border: 1px solid #000;
+    }
   }
 }
