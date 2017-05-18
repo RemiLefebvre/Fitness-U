@@ -12,6 +12,10 @@ body #header {
   z-index: 3;
   width: 100%;
 }
+body #header .navbar-brand {
+  font-weight: bold;
+  font-size: 26px;
+}
 body #header .desktop a {
   width: 60%;
 }
@@ -46,7 +50,11 @@ body #main .presentation h4 {
   padding-top: 50px;
   position: relative;
   background-color: grey;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
+}
+#footer h2 {
+  color: black;
+  font-weight: bold;
 }
 #footer .cardcoach {
   height: 190px;
