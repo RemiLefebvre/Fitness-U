@@ -1,9 +1,10 @@
-$clair:#8DCF8A;
-$fonce:#1B630F;
-$vert:#5CA650;
+$clair:#659E36;
+$fonce:#285502;
+$vert: rgb(187, 229, 153  );
 
 body,html{
   width: 100%;
+  overflow-x: hidden;
 }
 img{
   width: 100%;
@@ -44,6 +45,28 @@ body{
       }
     }
   }
+  // Home pictures
+  .homepic{
+    padding-top: 2vh;
+    position: relative;
+    width: 100vw;
+    margin: 0;
+    h1{
+      position: absolute;
+      margin-left: 50%;
+      left: -20vw;
+      top: 60%;
+      font-weight: bold;
+      color: white;
+      font-size: 8vw;
+      text-shadow: 0 0 3px grey;
+      line-height: 0.3em;
+      span{
+        font-size: 2.5vw;
+      }
+    }
+  }
+
   #main{
     padding-top: 80px;
     #myCarousel{
@@ -76,7 +99,7 @@ body{
   margin-top: 50px;
   padding-top: 50px;
   position: relative;
-  background-color: $clair;
+  background-color: #d8d8d8;
   padding-bottom: 80px;
   h2{
     color: black;
