@@ -22,6 +22,7 @@ body #header .desktop .navbar {
 }
 body #header .desktop a {
   width: 60%;
+  font-weight: bold;
 }
 body #header .desktop .nav {
   width: 40px;
@@ -31,8 +32,17 @@ body #header .phone .navbar {
   padding-bottom: 10px;
   padding: 0;
 }
+body #header .phone .navbar button {
+  border-color: transparent;
+}
+body #header .phone .navbar .navbar-brand {
+  max-height: 50px;
+}
 body #header .phone .navbar ul {
   padding-left: 30px;
+}
+body #header .phone .navbar ul a {
+  font-weight: bold;
 }
 body .homepic {
   padding-top: 2vh;
@@ -78,24 +88,23 @@ body #main .presentation blockquote {
   line-height: 1.8em;
   font-size: 24px;
 }
+body #main .tarifcard {
+  margin-top: 20px;
+}
 
 #footer {
   margin-top: 50px;
   padding-top: 50px;
   position: relative;
-  background-color: #d8d8d8;
+  background-color: #78B49A;
   padding-bottom: 80px;
 }
 #footer h2 {
   color: black;
   font-weight: bold;
 }
-#footer .cardcoach {
-  height: 190px;
-  width: 190px;
-}
-#footer .cardcoach .coach img {
-  border-radius: 50%;
+#footer .card {
+  margin-top: 20px;
 }
 
 #main .form .well-block {
